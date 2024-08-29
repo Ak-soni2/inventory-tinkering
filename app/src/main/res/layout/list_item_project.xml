@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- TextView for project title -->
+    <TextView
+        android:id="@+id/projectTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Title"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for project status -->
+    <TextView
+        android:id="@+id/projectStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/projectTitleTextView"
+        android:layout_marginTop="4dp"
+        android:textStyle="italic"
+        android:text="Status: Work in Progress"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<!-- circle_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="oval"
+    tools:ignore="ExtraText">
+    <solid android:color="@color/white" /> <!-- Background color -->
+    <stroke
+        android:width="2dp">
+
+    </stroke> <!-- Border width -->
+        <solid android:color="@color/darker_blue" />
+    <!-- Border color -->
+</shape>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "754613811569",
+    "firebase_url": "https://tinkering-5d08b-default-rtdb.firebaseio.com",
+    "project_id": "tinkering-5d08b",
+    "storage_bucket": "tinkering-5d08b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754613811569:android:406518c58d09a7fa265ed0",
+        "android_client_info": {
+          "package_name": "com.example.tinkering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754613811569-o9ehcau9nls220m5pkbs4hhhhcf0uvgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9_uTeQ2ykB1czNVMmuc6uKBCdGkaCHP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754613811569-o9ehcau9nls220m5pkbs4hhhhcf0uvgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

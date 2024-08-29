@@ -1,0 +1,10 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="dark_light_blue">#0288D1</color>
+    <color name="darker_blue">#E1212324</color>
+    <color name="white">#ffffff</color><!-- Even darker blue for status bar in dark mode -->
+    <!-- Add more colors as needed -->
+</resources>

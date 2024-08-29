@@ -1,0 +1,240 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- First Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="IIT JODHPUR a relatively new institute to foster creativity among young engineers, researchers, innovators, and entrepreneurs, in its endeavor to embed learning-by-doing in the academic curriculum established Tinkerers' Lab at its newly built campus. The Anvisha' Lab, popular as tnkering among students, is a technical facility with essential mechanical, electrical, and electronics tools and equipment to build and program things."
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- Second Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/create_image" />
+            <!--                android:background="@drawable/rounded_corner_background" />-->
+        </LinearLayout>
+
+        <!-- Third Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="The Tinkering lab at IITJ is completely a students' initiative that requires our students to execute day-to-day operational and maintenance tasks. Despite various challenges, our students have been able to keep Tinkering Lab open to all students on a 24/7 basis. We at IIT Jodhpur are really excited to see the phenomenal success of Tinkering Lab in encouraging students to start tinkering and explore technology as their hobby to build and innovate."
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- Fourth Row - GradientText -->
+        <!-- Fourth Row - GradientText -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="The Team"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                tools:ignore="MissingClass" />
+        </LinearLayout>
+
+
+        <!-- Fifth Row - Team Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal">
+
+            <!-- Akshay's Profile Image -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/circle_background"
+                    android:rotation="0"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/akshay"
+                    app:shapeAppearanceOverlay="@style/roundedImageView" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Akshay"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingClass" />
+                </LinearLayout>
+
+
+                <!-- Akshay's Social Icons -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:ignore="ExtraText">
+
+                    <ImageView
+                        android:id="@+id/instagramid_ak"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="20dp"
+                        android:onClick="openInstagramAkshay"
+                        android:src="@drawable/instagram_167_svgrepo_com" />
+                    <!--                        android:background="@drawable/circle_background"-->
+
+                    <ImageView
+                        android:id="@+id/linkedinid_ak"
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:onClick="openLinkedinAkshay"
+                        android:src="@drawable/linkedin_svgrepo_com" />
+                    <!--                        android:background="@drawable/circle_background"-->
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Raditya's Profile Image -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- Raditya's Social Icons -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/circle_background"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/raditya"
+                    app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Raditya"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingClass" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="25dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/instagramid_rd"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="15dp"
+                        android:onClick="openInstagramRaditya"
+                        android:src="@drawable/instagram_167_svgrepo_com" />
+                    <!--                        android:background="@drawable/circle_background"-->
+
+                    <ImageView
+                        android:id="@+id/linkedinid_rd"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:onClick="openLinkedinRaditya"
+                        android:src="@drawable/linkedin_svgrepo_com" />
+                    <!--                        android:background="@drawable/circle_background"-->
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="mail us at -: tinkeringlab8@gmail.com "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="MissingClass" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tinker It</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_projects">Projects</string>
+    <string name="tab_events">Events</string>
+    <string name="tab_inventory">Inventory</string>
+    <string name="tab_about_us">About Us</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="default_web_client_id">your_web_client_id_here</string>
+</resources>
