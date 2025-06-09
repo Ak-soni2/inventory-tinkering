@@ -2,6 +2,12 @@
 
 This project is a comprehensive inventory management system designed specifically for the IIT Jodhpur's lab, developed to streamline the process of managing lab equipment and reducing loss.
 
+
+
+
+https://github.com/user-attachments/assets/4f5fcb0f-58e3-4471-b54b-5e79c9fe6fa1
+
+
 ## ✨ Features
 
 * **Dual Android Applications:** Developed separate applications for students and administrators, each tailored to their specific roles and access levels.
